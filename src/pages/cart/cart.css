@@ -1,43 +1,100 @@
 .cart {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.cartItem {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  padding: 2%;
+}
+
+.cartItem img {
+  width: 15%;
+  border-radius: 25px;
+}
+.cartItem .title {
+  margin : 3%;
+}
+
+.cartItem .countHandler
+{
+    text-align: -webkit-center;
+    order: 2;
+    margin-left: auto;
+}
+
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 10%;
+  border: 1px solid gray;
+  margin: 0px 5px;
+  height: 20px;
+}
+.countHandler button {
+  width: 30px;
+  height: 32px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 10%;
+  border: none;
+  margin: 0px 5px;
+  height: 25px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  font-size: medium;
+
+}
+.cart .footer{
+  width: 50%;
+  border-top: 1px gray solid;
+  margin-top: 30px;
+  text-align: right;
+}
+.footer button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.custom-icon
+{
+  border: 1px solid gray;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .cart{
+    padding-top:15%;
   }
-  
   .cartItem {
-    width: 700px;
-    height: 250px;
+    width: 80%;
+    height: 70px;
     display: flex;
-  
     align-items: center;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    margin: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    padding: 2%;
   }
-  
-  .cartItem img {
-    width: 200px;
+  .cart .footer{
+    width: 80%;
+    border-top: 1px gray solid;
+    margin-top: 30px;
+    text-align: right;
   }
-  
-  .cartItem .description {
-    width: 100%;
-    font-size: 30px;
-  }
-  
-  .countHandler input {
-    width: 40px;
-    text-align: center;
-    font-weight: bolder;
-  }
-  
-  .checkout button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    margin: 10px;
-    cursor: pointer;
-  }
+}

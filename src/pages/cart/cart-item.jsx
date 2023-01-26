@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import { Trash } from "phosphor-react";
 import { StoreContext } from "../../context/store-context"
 import "./cart.css"
 
@@ -9,22 +8,20 @@ export const CartItem = (props) => {
     return (
         <div key={id} className="cartItem">
             <img src={bookImage} />
-            <div className="decsription">
-                <p><b>{title}</b></p>
-                <p>{author}</p>
+            <div className="title">
+                <p><b>{title}</b><br />{author}</p>
+                <p>{description}</p>
+            </div>
+            <div className="countHandler">
                 <p> Price: ${price}</p>
-                <p> Count: {cartItems[id]}</p>
-                <p><b>{description}</b></p>
-                <Trash size={32} onClick={() => removeFromCart(id)}/>
-                
-                {/* <div className="countHandler">
+                <div>
                     <button onClick={() => removeFromCart(id)}> - </button>
-                    <input
+                    <input height={20}
                         value={cartItems[id]}
                         onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
                     />
-                    <button onClick={() => addToCart(id)}> + </button>
-                </div> */}
+                    <button onClick={() => addToCart(id)} > + </button>
+                </div>
             </div>
         </div>
     );

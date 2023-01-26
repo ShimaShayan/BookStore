@@ -2,7 +2,7 @@ export const BOOKS=[
     {
         id: 1,
         title:"book1",
-        author:"author",
+        author:"John Doe",
         price:"25.50",
         bookImage:'https://picsum.photos/200?random=1',
         description:"this is book"
@@ -10,7 +10,7 @@ export const BOOKS=[
     {
         id: 2,
         title:"book",
-        author:"author",
+        author:"John Doe",
         price:"25.50",
         bookImage:'https://picsum.photos/200?random=2',
         description:"this is book"
@@ -18,7 +18,7 @@ export const BOOKS=[
     {
         id: 3,
         title:"book",
-        author:"author",
+        author:"John Doe",
         price:"25.50",
         bookImage:'https://picsum.photos/200?random=3',
         description:"this is book"
@@ -26,7 +26,7 @@ export const BOOKS=[
     {
         id: 4,
         title:"book",
-        author:"author",
+        author:"John Doe",
         price:"25.50",
         bookImage:'https://picsum.photos/200?random=4',
         description:"this is book"
@@ -34,10 +34,39 @@ export const BOOKS=[
     {
         id: 5,
         title:"book",
-        author:"author",
+        author:"John Doe",
         price:"25.50",
         bookImage:'https://picsum.photos/200?random=5',
         description:"this is book"
     },
-
+    {id:6,title:"Ready to Rumble",author:"Garrett Ingle",price:"15.72",bookImage:'https://picsum.photos/200?random=11',description:"Other superficial bite of left ear"},
+    {id:7,title:"Judgment at Nuremberg",author:"Janeva Middleweek",price:"41.18",bookImage:'https://picsum.photos/200?random=12',description:"Unsp comp fol infusion and theraputc injection, sequela"},
+    {id:8,title:"The Chase",author:"Dawn Parman",price:"31.20",bookImage:'https://picsum.photos/200?random=13',description:"Maternal care for excessive fetal growth, third trimester"},
+    {id:9,title:"I Love You, I Love You (Je t'aime je t'aime)",author:"Clay Moysey",price:"24.65",bookImage:'https://picsum.photos/200?random=14',description:"Prsn brd/alit pk-up/van inj in clsn w nonmtr vehicle, sqla"},
+    {id:10,title:"Body Parts",author:"Jen McCane",price:"9.98",bookImage:'https://picsum.photos/200?random=15',description:"Encounter for adjustment or removal of left breast implant"},
+    {id:11,title:"Employees' Entrance",author:"Jarid Woolner",price:"24.99",bookImage:'https://picsum.photos/200?random=16',description:"Laceration of right kidney, unspecified degree, init encntr"},
+    {id:12,title:"Rampage",author:"Ermanno Simao",price:"39.13",bookImage:'https://picsum.photos/200?random=17',description:"Other myositis, multiple sites"},
+    {id:13,title:"My Forbidden Past",author:"Ashla Lis",price:"22.43",bookImage:'https://picsum.photos/200?random=18',description:"Complications of liver transplant"},
+    {id:14,title:"Mr. Nice Guy (Yat goh ho yan)",author:"Seymour Chieco",price:"21.45",bookImage:'https://picsum.photos/200?random=19',description:"Cracked nipple associated with pregnancy, third trimester"},
+    {id:15,title:"Contagion / Bio Slime",author:"Stevana Allwright",price:"25.01",bookImage:'https://picsum.photos/200?random=20',description:"Contusion of prostate, sequela"},
+    {id:16,title:"Filth and the Fury, The",author:"Rasia Longina",price:"47.15",bookImage:'https://picsum.photos/200?random=30',description:"Rheu arthritis of r elbow w involv of organs and systems"},
+    {id:17,title:"It's Complicated",author:"Darsey Farnhill",price:"44.51",bookImage:'https://picsum.photos/200?random=31',description:"Nondisp segmental fx shaft of ulna, left arm, sequela"},
+    {id:18,title:"Play Dirty",author:"Selle Kirkebye",price:"32.88",bookImage:'https://picsum.photos/200?random=32',description:"Occupant of stcar injured in clsn w mtr veh nontraf, subs"},
+    {id:19,title:"Bagdad Cafe (Out of Rosenheim)",author:"Rachelle Moynihan",price:"23.87",bookImage:'https://picsum.photos/200?random=33',description:"Osteophyte, right ankle"},
+    {id:20,title:"The Photographer",author:"Damian Carling",price:"44.24",bookImage:'https://picsum.photos/200?random=34',description:"Other and unspecified porphyria"},
+    {id:21,title:"Christmas Carol, A",author:"Corissa Janas",price:"39.98",bookImage:'https://picsum.photos/200?random=35',description:"Type III occipital condyle fracture, left side, init"},
+    {id:22,title:"Come Undone (Cosa voglio di più)",author:"Rolfe Pech",price:"46.08",bookImage:'https://picsum.photos/200?random=36',description:"Abnormal response to nerve stimulation, unspecified"},
+    {id:23,title:"Touch of Pink",author:"Shawn Kubica",price:"11.35",bookImage:'https://picsum.photos/200?random=37',description:"Sprain of unspecified site of unspecified knee"},
+    {id:24,title:"Cockleshell Heroes, The",author:"Kerstin Duval",price:"30.07",bookImage:'https://picsum.photos/200?random=38',description:"Postthrombotic syndrome w inflammation of l low extrem"},
+    {id:25,title:"Besieged (a.k.a. L' Assedio)",author:"Rebeka Andrag",price:"36.63",bookImage:'https://picsum.photos/200?random=39',description:"Nondisp fx of lateral condyle of l femr, 7thR"},
+    {id:26,title:"Our Life (La nostra vita)",author:"Giffie Kline",price:"6.74",bookImage:'https://picsum.photos/200?random=40',description:"Disp fx of med condyle of r femr, 7thF"},
+    {id:27,title:"Bandit Queen",author:"Bartolemo Bartles",price:"34.09",bookImage:'https://picsum.photos/200?random=41',description:"Unstbl burst fx first lum vertebra, subs for fx w routn heal"},
+    {id:28,title:"Friends with Money",author:"Kev Glossop",price:"49.81",bookImage:'https://picsum.photos/200?random=42',description:"Tension-type headache, unspecified, not intractable"},
+    {id:29,title:"Early Years: Erik Nietzsche Part 1, The (De unge år: Erik Nietzsche)",author:"Cordy Allward",price:"8.80",bookImage:'https://picsum.photos/200?random=43',description:"Corrosion of first degree of right knee, subs encntr"},
+    {id:30,title:"Becoming Jane",author:"Hilarius Scough",price:"44.90",bookImage:'https://picsum.photos/200?random=44',description:"Nondisp fx of epiphy (separation) (upper) of unsp femr, 7thJ"},
+    {id:31,title:"Martin",author:"Clementia Dineen",price:"43.70",bookImage:'https://picsum.photos/200?random=6',description:"Chorioamnionitis, second trimester, other fetus"},
+    {id:32,title:"Hoot",author:"Stoddard Lodevick",price:"38.87",bookImage:'https://picsum.photos/200?random=7',description:"Inj conjunctiva and corneal abrasion w/o fb, left eye, subs"},
+    {id:33,title:"Chameleon, The ",author:"Tedi Shallcroff",price:"38.12",bookImage:'https://picsum.photos/200?random=8',description:"Nondisp oblique fx shaft of l fibula, 7thK"},
+    {id:34,title:"June 9 ",author:"Sonya Jentin",price:"10.49",bookImage:'https://picsum.photos/200?random=9',description:"Poisoning by aminoglycosides, undetermined, sequela"},
+    {id:35,title:"Addams Family, The",author:"Care Zarb",price:"34.57",bookImage:'https://picsum.photos/200?random=10',description:"Ped on gliding-type ped convey colliding w statnry obj, subs"}
 ]
